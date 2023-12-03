@@ -1,0 +1,43 @@
+[
+    {
+      "type": "Expense",
+      "category": "Groceries",
+      "amount": 50.00,
+      "date": "2023-12-01",
+      "description": "Grocery shopping for the week",
+      "createdAt": "2023-12-01T00:00:00.000Z"
+    },
+    {
+      "type": "Income",
+      "category": "Salary",
+      "amount": 2000.00,
+      "date": "2023-12-05",
+      "description": "Monthly salary deposit",
+      "createdAt": "2023-12-05T00:00:00.000Z"
+    },
+    {
+      "type": "Expense",
+      "category": "Dining Out",
+      "amount": 30.00,
+      "date": "2023-12-10",
+      "description": "Dinner with friends",
+      "createdAt": "2023-12-10T00:00:00.000Z"
+    },
+    {
+      "type": "Expense",
+      "category": "Utilities",
+      "amount": 100.00,
+      "date": "2023-12-15",
+      "description": "Electricity and water bill",
+      "createdAt": "2023-12-15T00:00:00.000Z"
+    },
+    {
+      "type": "Income",
+      "category": "Freelance",
+      "amount": 500.00,
+      "date": "2023-12-20",
+      "description": "Freelance project payment",
+      "createdAt": "2023-12-20T00:00:00.000Z"
+    }
+  ]
+  

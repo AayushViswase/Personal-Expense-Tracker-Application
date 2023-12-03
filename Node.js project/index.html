@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Expense Tracker</h2>
+
+<form id="transactionForm">
+  <label for="type">Type:</label>
+  <select id="type" name="type">
+    <option value="Expense">Expense</option>
+    <option value="Income">Income</option>
+  </select><br>
+
+  <label for="category">Category:</label>
+  <input type="text" id="category" name="category" required><br>
+
+  <label for="amount">Amount:</label>
+  <input type="number" id="amount" name="amount" required><br>
+
+  <label for="date">Date:</label>
+  <input type="date" id="date" name="date" required><br>
+
+  <label for="description">Description:</label>
+  <input type="text" id="description" name="description" required><br>
+
+  <button type="button" onclick="submitForm()">Submit</button>
+</form>
+
+<h3>Transactions</h3>
+
+<table id="transactionsTable">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Category</th>
+      <th>Amount</th>
+      <th>Date</th>
+      <th>Description</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="transactionsBody">
+    <!-- Transaction data will be displayed here -->
+  </tbody>
+</table>
+
+<script src="frontendApp.js"></script>
+</body>
+</html>
